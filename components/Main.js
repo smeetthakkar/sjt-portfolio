@@ -7,7 +7,9 @@ const Main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase tracking-widest text-sm text-gray-600">Let's innovate together</p>
+          <p className="uppercase tracking-widest text-sm text-gray-600">
+            Let us innovate together
+          </p>
           <h1 className="py-4 text-gray-700">
             Hi, I am <span className="text-[#5651e5]">Smeet</span>
           </h1>
@@ -33,11 +35,11 @@ const Main = () => {
                 <FaTwitter />
               </div>
             </a>
-            <a href="/#contact">
+            <Link href="/#contact">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
