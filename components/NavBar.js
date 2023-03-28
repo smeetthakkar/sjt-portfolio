@@ -87,15 +87,29 @@ const NavBar = () => {
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#5651e5]">Let&apos;s connect</p>
               <div className="flex justify-between items-center my-5 w-full sm:w-[30%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedin />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaTwitter />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
+                <a
+                  href="https://www.linkedin.com/in/smeetjthakkar/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaLinkedin />
+                  </div>
+                </a>
+                <a
+                  href="https://twitter.com/smeet_j?lang=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaTwitter />
+                  </div>
+                </a>
+                <Link href="/#contact">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiOutlineMail />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
