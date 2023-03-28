@@ -61,7 +61,7 @@ const Contact = () => {
                   <h2 className="py-2">Smeet J Thakkar</h2>
                   <p>Project Manager</p>
                   <p className="py-4">
-                    Contact me if you want to talk about any interest opportunities!
+                    Contact me if you want to talk about any interesting opportunities!
                   </p>
                 </div>
                 <div>
