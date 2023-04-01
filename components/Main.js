@@ -27,17 +27,17 @@ const Main = () => {
               rel="noopener noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaLinkedin />
+                <FaLinkedin size={25} />
               </div>
             </a>
             <a href="https://twitter.com/smeet_j?lang=en" target="_blank" rel="noopener noreferrer">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaTwitter />
+                <FaTwitter size={25} />
               </div>
             </a>
             <Link href="/#contact">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <AiOutlineMail />
+                <AiOutlineMail size={25} />
               </div>
             </Link>
           </div>

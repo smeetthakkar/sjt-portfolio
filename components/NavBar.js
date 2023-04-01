@@ -34,7 +34,9 @@ const NavBar = () => {
       style={{ backgroundColor: `${navBg}` }}
     >
       <div className="flex justify-between items-center w-full h-20 px-2 2xl:px-16">
-        <Image src="/sjtlogo.svg" alt="logosmeet" width={120} height={60} className="p-2"></Image>
+        <Link href="/#home" scroll={false}>
+          <Image src="/sjtlogo.svg" alt="logosmeet" width={120} height={60} className="p-2"></Image>
+        </Link>
         <div>
           <ul className="hidden md:flex">
             <Link href="/#skills" scroll={false}>
@@ -60,7 +62,9 @@ const NavBar = () => {
         >
           <div>
             <div className="flex w-full justify-between items-center">
-              <Image src="/sjtlogo.svg" width={87} height={35} alt="/" />
+              <Link href="/#home" scroll={false}>
+                <Image src="/sjtlogo.svg" width={87} height={35} alt="/" />
+              </Link>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
@@ -74,13 +78,13 @@ const NavBar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
+              <Link href="/#home" onClick={handleNav} scroll={false}>
                 <li className="py-4 text-sm">Home</li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">About</li>
+              <Link href="/#skills" onClick={handleNav} scroll={false}>
+                <li className="py-4 text-sm">Skills</li>
               </Link>
-              <Link href="/">
+              <Link href="/#contact" onClick={handleNav} scroll={false}>
                 <li className="py-4 text-sm">Contact</li>
               </Link>
             </ul>
