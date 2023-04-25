@@ -15,10 +15,10 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-gray-700">A Project Manager</h1>
           <p className="py-4 text-gray-700 max-w-[70%] m-auto">
-            Multi-tasking Project Manager well-known for successfully taking a project from shop
-            drawing to completion. Certified as a Project Management Professional with almost a
-            decade project management experience. Adept at planning, estimating, organising, optimal
-            resource utilisation and overall implementation of software projects.
+            Multi-tasking PM well-known for successfully taking a project from shop drawing to
+            completion. Certified as a Project Management Professional with almost a decade project
+            management experience. Adept at planning, estimating, organising, optimal resource
+            utilisation and overall implementation of software projects.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
